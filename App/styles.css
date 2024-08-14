@@ -13,6 +13,7 @@ h1 {
   font-size: 2.5em;
   text-align: center;
   margin-bottom: 20px;
+  text-wrap: balance;
 }
 h2 {
   font-size: 1.8em;
@@ -23,7 +24,7 @@ p {
   margin-bottom: 15px;
 }
 a {
-  color: #e91e63;
+  color: #cbc8c8;
   text-decoration: none;
 }
 a:hover {
@@ -62,6 +63,34 @@ img {
 }
 
 header {
+  margin-bottom: 30px;
+}
+
+.top-menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
   text-align: center;
-  margin-bottom: 20px;
+}
+
+.title-bar {
+  font-size: 1.5em;
+  display: flex;
+  align-items: center;
+  color: #de90aa;
+}
+
+.title-bar img {
+  display: block;
+  max-width: 10%;
+  height: auto;
+  margin: 5px;
+  border-radius: 0px;
+  box-shadow: none;
 }
