@@ -9,7 +9,7 @@ body {
   background: linear-gradient(to bottom right, #e91e63, #f06292, #f8bbd0);
 }
 h1 {
-  color: #e78fac;
+  color: #d1b6bf;
   font-size: 2.5em;
   text-align: center;
   margin-bottom: 20px;
@@ -53,6 +53,7 @@ img {
   background-color: #333;
   padding: 20px;
   border-radius: 10px;
+  background: linear-gradient(to bottom right, #333, #333, #4d4d4d);
 }
 
 .container {
